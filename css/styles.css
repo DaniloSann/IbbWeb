@@ -1,0 +1,424 @@
+* {
+  font-family: montserrat, sans-serif;
+}
+
+.bg-primary-color {
+  background-color: #050505;
+}
+
+.bg-secondary-color {
+  background-color: #ece8ea;
+}
+
+.bg-dark-color {
+  background-color: #050505;
+}
+
+.primary-color {
+  color: #fff;
+}
+
+.secondary-color {
+  color: #7a7a7a;
+}
+
+/* Navbar */
+
+#navbar {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a:hover {
+  color: #7a7a7a;
+}
+
+#navbar a.active {
+  border-bottom: 1px solid #fff;
+}
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+#navbar-items .navbar-nav {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.bi-list {
+  color: #fff;
+}
+
+/* Slider */
+
+#slider {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#slider .carousel-caption {
+  bottom: 3em;
+}
+
+#slider .carousel-caption h5 {
+  font-size: 2.5em;
+  text-shadow: #000 2px 2px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+#slider .btn {
+  padding: 0.3 0.8em;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: #111;
+  font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #222;
+  opacity: 0.8;
+}
+
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+@media (min-width: 768px) {
+  #slider .carousel-caption {
+    bottom: 15em;
+  }
+
+  #slider .btn {
+    padding: 0.6 1.6em;
+    font-size: 1.2em;
+  }
+
+  .carousel-indicators {
+    bottom: 7em;
+  }
+}
+
+/* Section dark*/
+
+#section-dark {
+  height: 316px;
+}
+
+#section-dark-in h2 {
+  color: #ece8ea;
+  margin-top: 4em;
+  margin-left: 5em;
+}
+#section-dark-in p {
+  margin-left: 10em;
+  color: #ece8ea;
+}
+
+#video iframe {
+  width: 400px;
+  height: 225px;
+  margin-top: 3em;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  #video iframe {
+    width: 166px;
+    height: 93px;
+    margin-left: -1.5em;
+    margin-top: 1.5rem;
+    background-color: none;
+  }
+  #section-dark {
+    height: 9em;
+  }
+  #section-dark h2 {
+    font-size: 15px;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  #section-dark p {
+    margin-left: 0;
+    font-size: 13px;
+  }
+}
+
+/* Parallax */
+
+#parallax-img1 {
+  background-image: url("../img/oracao.svg");
+  height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#parallax-img1 h2 {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 27px;
+  color: #000;
+}
+
+.btn-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+#btn {
+  border: solid 5px;
+  border-color: #fff;
+  background-color: transparent;
+  width: 300px;
+  height: 55px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  #parallax-img1 h2 {
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+
+  #btn {
+    border: solid 5px;
+    border-color: #fff;
+    background-color: transparent;
+    font-size: 15px;
+  }
+}
+
+#parallax-img2 {
+  background-image: url("../img/donativos.svg");
+  height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-main-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10rem;
+}
+
+#btn {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+#btn:hover {
+  box-shadow: 0 0 40px 40px #fff inset;
+}
+
+#btn-2 {
+  border: solid 5px;
+  border-color: #fff;
+  background-color: transparent;
+  width: 300px;
+  height: 55px;
+  font-size: 20px;
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+#btn-2:hover {
+    box-shadow: 0 0 40px 40px #fff inset;
+  }
+
+#section-light-in {
+  padding: 80px;
+  text-align: center;
+}
+#section-light-in h2 {
+  color: #000;
+  margin-top: 1em;
+  font-size: 50px;
+}
+
+#section-light-in p {
+  color: #000;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  #section-light {
+    height: 9em;
+  }
+
+  #btn-2 {
+    font-size: 15px;
+  }
+
+  #section-light-in {
+    padding: 0;
+    text-align: center;
+  }
+  #section-light h2 {
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-left: auto;
+  }
+  #section-light p {
+    font-size: 13px;
+    margin-left: auto;
+  }
+}
+
+/* Artigos em destaque */
+
+#section-dark-in h3 {
+  text-align: center;
+  margin-top: 8rem;
+  color: #fff;
+  font-size: 40px;
+}
+#section-dark-in h4 {
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #section-dark-in h3 {
+    margin-top: 2rem;
+    font-size: 20px;
+  }
+  #section-dark-in h4 {
+    font-size: 15px;
+  }
+}
+
+.main-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.box {
+  width: 340px;
+  height: 222px;
+  box-shadow: inset 0 0, 0 0 1em #a4a4a4;
+  cursor: pointer;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  width: 340px;
+  height: 423px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+}
+
+.card-1 .box {
+  background-color: #6663ff;
+}
+
+.card-2 .box {
+  background-color: #63ecff;
+}
+
+.card-3 .box {
+  background-color: #f363ff;
+}
+
+.card-4 .box {
+  background-color: #63ff73;
+}
+
+.card-5 .box {
+  background-color: #ffdd63;
+}
+
+.card-6 .box {
+  background-color: #6663ff;
+}
+
+.texto {
+  box-shadow: inset 0 0, 0 0 1em #a4a4a4;
+}
+.texto h2 {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 0px;
+  font-family: Merriweather;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.texto p {
+  text-align: left;
+  padding: 0px 50px 0px 30px;
+  font-family: lato;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Footer top */
+
+#footer {
+  padding: 3em 2em;
+}
+
+#footer-top {
+  margin-bottom: 2em;
+}
+
+#footer-top,
+#footer-top i {
+  color: #fff;
+}
+
+#social-icons {
+  text-align: right;
+}
+
+#social-icons a{
+    text-decoration: none;
+}
+
+#social-icons i {
+  margin-right: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#social-icons i:hover {
+  color: #7a7a7a;
+}
+
+/* Footer Bottom */
+#footer-bottom {
+  border-top: 1px solid #7a7a7a;
+  padding-top: 2em;
+}
+
+#footer-bottom p {
+  text-align: center;
+}

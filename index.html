@@ -66,7 +66,7 @@
               <a href="#" class="nav-link primary-color">Ministrações</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link primary-color">Artigos</a>
+              <a href="#artigos" class="nav-link primary-color" id="artigos-id">Artigos</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link primary-color">Sobre nós</a>
@@ -228,7 +228,7 @@
       </div>
     </div>
     <!-- Artigos -->
-    <div class="container" id="artigos">
+    <div id="artigos" class="container">
       <div class="container">
         <div class="row main-cards">
           <div class="col-md-4 card-1">
@@ -336,4 +336,15 @@
       </div>
     </div>
   </body>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+    });
+  </script>
 </html>

@@ -370,6 +370,11 @@
   margin-top: -3rem;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .leia-mais{
+    margin-top: -4em;
+  }
+}
 
 .card-1,
 .card-2,

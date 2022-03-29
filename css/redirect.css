@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main img{
+    align-items: center;
+    height: 600px;
+}
+
+@media (max-width: 320px) {
+  #main img {
+    height: 200px;
+  }
+}

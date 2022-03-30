@@ -8,8 +8,9 @@
     height: 600px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
   #main img {
     height: 200px;
+
   }
 }
